@@ -1,92 +1,39 @@
+# XX-Net
 
-叉叉翻墙
+###### [中文文档](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3) &nbsp; &nbsp; &nbsp;[English](https://github.com/XX-net/XX-Net/wiki/English-Home-Page) &nbsp; &nbsp; &nbsp;[فارسی صفحه اصلی](https://github.com/XX-net/XX-Net/wiki/Persian-home-page) 
 
-XX-Net
-========
-最新状态（2015.9.28）： 各地情况不同，启动后需要扫描ip 十分钟到1个小时。  
-  上海电信基本无连接。  
-   
-
-下载链接：
-==========
-测试版：
-https://codeload.github.com/XX-net/XX-Net/zip/2.5.0
-
-稳定版：
-https://codeload.github.com/XX-net/XX-Net/zip/2.3.0
+* 易用的翻墙工具  
+* 包含的GAE_proxy和X-Tunnel：  
 
 
-历史版本：https://github.com/XX-net/XX-Net/releases
-   
+| 模块        | GAE_proxy   | X-Tunnel  |  
+| ------------- |:-------------:| :-----:| 
+| 稳定性| 部分地区不稳定 | 稳定可用 |
+| 速度 | 流畅 | 下载快速，偶尔卡顿 | 
+| 安全性| Google可看到通信内容 |  完全加密 |  
+| 易用 | 需开启Ipv6，部署服务端，导入证书 | 简单  |
+| 兼容性| 部分网站不支持 | 无问题 |
+| 收费  | 免费 | 付费 |  
+
+<br>
+
+### [__下载页面__](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)
+<br>
+
+
+### 最新状态：
+ 2017-11-9
+* X-Tunnel 稳定. （[使用教程](https://github.com/XX-net/XX-Net/wiki/x-tunnel%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)）  
+
+* GAE:  请升级到 3.7.15， 扫不到ip，请开启ipv6，请参考：
+  [如何开启IPv6](https://github.com/XX-net/XX-Net/wiki/%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AFIPv6)
+
+  
+
   
   
+<br>
 
-主要特性
-========
-* 集成GoAgent、GoGoTest等自动扫描IP，省事省力
-* Web界面，人性化交互，傻瓜易用
-* 内置了公共 appid, 方便新手
-* 方便易用的细节、细节提示
-
-
-平台支持
-================
-* Windows 7/8/10 （xp 需要 tcpip.sys 补丁, 比如用 tcp-z）
-* Linux （Ubuntu不显示系统托盘）
-* Mac OS X(10.7; 10.8; 10.9; 10.10)
-
-
-
-## 链接
-|   |   |
-| --------   | :----  |
-|使用方法|https://github.com/XX-net/XX-Net/wiki/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95|
-|问题报告:  |https://github.com/XX-net/XX-Net/issues|
-|讨论群:  |https://groups.google.com/forum/#!forum/xx-net|
-
-感谢
-=========
-* GoAgent
-* GoGoTest
-* goagentfindip
-* checkgoogleip
-
-
-如何帮助项目
-==========
-https://github.com/XX-net/XX-Net/wiki/How-to-contribute
-
-
-附图
-======
-
-GAEProxy状态页面
-
-![goagent_status](https://cloud.githubusercontent.com/assets/10395528/5849287/f71c62fc-a1b9-11e4-9ae0-b33fc78ed5fd.png)
-
-GAEProxy 配置页面
-
-![goagent_config](https://cloud.githubusercontent.com/assets/10395528/5849285/f68ac84c-a1b9-11e4-808a-5ec78f2fd3af.png)
-
-GAEProxy 部署服务端页面
-
-![goagent_deploy](https://cloud.githubusercontent.com/assets/10395528/5849286/f6e81dda-a1b9-11e4-94f8-2b9d2492bd39.png)
-
-GAEProxy 查看日志页面
-
-![goagent_log](https://cloud.githubusercontent.com/assets/10395528/5849288/f72138cc-a1b9-11e4-94df-d0b7ab160f0c.png)
-
-集成XX-Net的项目
-===============
-* ChromeGAE
-  主页：http://www.ccav1.com/chromegae
-  集成Google Chrome和XX-Net的自动翻墙浏览器
-  维护人：Yanu
-* 集成Chrome和XX-Net
-  https://github.com/yeahwu/chrome
-* plusburg
-  主页：https://github.com/Plusburg/Plusburg
-  集成XX-Net的启动光盘镜像
-* appifed-xx-net
-  https://github.com/binarydist/appified-xx-net
-  Mac OSX 环境下，变成一个标准的MAC应用
+#### 提示：  
+* 有问题请先看[Wiki文档](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)
+* [提问](https://github.com/XX-net/XX-Net/issues)前，请先看[最近讨论主题](https://github.com/XX-net/XX-Net/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)，避免重复发问。  
